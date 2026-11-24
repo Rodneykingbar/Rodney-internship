@@ -53,6 +53,7 @@ const HotCollections = ({ data, setData, loading}) => {
     },
   ],
   };
+  
   console.log(data)
   return (
     <section id="section-collections" className="no-bottom">
