@@ -1,10 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import SubHeader from "../images/subheader.jpg";
 import ExploreItems from "../components/explore/ExploreItems";
+import axios from "axios";
 
 const Explore = () => {
+  const [data, setData] = useState([]);
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    
   }, []);
 
   return (
